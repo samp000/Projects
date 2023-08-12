@@ -1,0 +1,144 @@
+﻿body {
+    background: #3b3b3b;
+}
+
+
+.loginForm {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin: 10% auto auto auto;
+    width: max-content;
+    border-radius: 20px;
+    color:#fff;
+}
+
+fieldset {
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 35px ;
+}
+
+td {
+
+    color:aliceblue;
+    font-size:20px;
+}
+
+  .loginForm .login_btn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    width: 100px;
+    background: linear-gradient(to right,#860a0a,#4a0c6e);
+    color: #fff;
+    margin: 20px;
+}
+
+        .loginForm .login_btn:hover {
+        
+            box-shadow:1px 1px 10px black;
+        }
+
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 25px;
+}
+
+
+
+/*Registration form*/
+
+.regForm {
+    width:max-content;
+    margin:auto;
+}
+
+    .regForm fieldset {
+        padding:5px 20px 30px 20px;
+        color:white;
+    }
+
+.regForm .regtxtbx {
+    width: 100%;
+    padding: 12px 12px 24px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: white;
+    font-size: 15px;
+    background: linear-gradient(to right, rgb(37, 37, 37), rgb(70, 69, 69)) no-repeat;
+    outline: none;
+    height: 16px;
+}
+
+.reg_btn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    width: max-content;
+    background: linear-gradient(to right,#0b87a8,#6212f0);
+    color: #fff;
+    margin: 20px 100px 20px auto;
+}
+
+.regForm .login_btn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    width: max-content;
+    background: linear-gradient(to right,#860a0a,#4a0c6e);
+    color: #fff;
+    margin: 20px 100px 20px auto;
+}
+
+    .regForm .reg_btn:hover {
+        box-shadow: 1px 1px 10px black;
+    }
+
+    .regForm .login_btn:hover {
+        box-shadow: 1px 1px 10px black;
+    }
+
+    /*Contact Form */
+
+#contact_form_container {
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+    width:480px;
+    margin:100px auto;
+}
+
+    #contact_form_container .txtcontactbx {
+        width: 90%;
+        padding: 12px 12px 24px 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        color: white;
+        font-size: 16px;
+        background: linear-gradient(to right, rgb(37, 37, 37), rgb(70, 69, 69)) no-repeat;
+        outline: none;
+    }
+
+    #contact_form_container fieldset {
+        color:white;
+        padding:20px;
+    }

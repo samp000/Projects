@@ -1,0 +1,63 @@
+
+	.colors {
+		background: #96ceb4;
+		background: #ffeead;
+		background: #ff6f69;
+		background: #ffcc5c;
+		background: #88d8b0;
+	}
+
+
+	window {
+		
+		background: linear-gradient(rgb(43, 43, 43),rgb(62, 62, 62),rgb(43, 43, 43));
+	}
+
+	button{
+		background:linear-gradient(180deg,rgb(105, 103, 103),rgb(152, 152, 152));
+		color: rgb(0, 0, 0);
+	}
+
+
+	button:hover {
+		background: #c55551;
+		box-shadow: -4px 9px 1px rgb(156, 156, 156), -3px 8px 1px black ;
+		transition: 0.6s;
+	}
+
+
+	.rdbtn {
+
+		color: violet;
+		font-size: 20px;
+	}
+
+	textview text {
+		color : #f8db1d;
+	}
+
+	textarea:hover {
+
+		box-shadow: 10px 10px 10px white;
+	}
+
+	.codeArea {
+		padding: 10px;
+		background:linear-gradient( rgba(25, 198, 181, 0.155),rgb(7, 137, 124),rgba(25, 198, 181, 0.155));
+	}
+
+	.codeArea text{
+
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	}
+	
+
+	.outputArea {
+		padding:10px;
+		background: linear-gradient(rgba(38, 244, 19, 0.155),rgb(19, 156, 7),rgba(38, 244, 19,0.155));
+	} 
+
+	.errorArea {
+		padding:10px;
+		background: linear-gradient(rgba(239, 33, 33, 0.155) ,rgb(150, 12, 12),rgba(239, 33, 33, 0.155));
+	} 

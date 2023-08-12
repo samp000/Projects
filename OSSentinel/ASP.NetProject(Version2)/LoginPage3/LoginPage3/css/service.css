@@ -1,0 +1,208 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Kumbh Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #3b3b3b;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.main_content {
+    background: #3b3b3b;
+}
+
+.info_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .info_section h2 {
+        margin-top: 30px;
+        color: rgb(231, 225, 225);
+        text-shadow: 1.5px 2px 3px rgba(255, 255, 255, 0.877);
+        padding-bottom: 30px;
+    }
+
+    .info_section img {
+        margin: 20px 120px 20px 120px;
+        width: 100%;
+        max-width: 900px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px #ff0844;
+    }
+
+@media screen and (max-width: 960px) {
+    .info_section img {
+        margin: auto 200px;
+        width: 90%;
+    }
+}
+
+.info_section p {
+    margin: 50px;
+    text-align: justify;
+    color: rgb(240, 240, 240);
+}
+
+.social {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+    .social ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        transform: translateX(-260px);
+    }
+
+        .social ul li {
+            display: block;
+            margin: 5px;
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 300px;
+            text-align: right;
+            padding: 10px;
+            border-radius: 0 30px 30px 0;
+            transition: all 1s;
+        }
+
+            .social ul li:hover {
+                transform: translateX(120px);
+            }
+
+            .social ul li.whatsapp:hover {
+                background-color: #3b994f;
+            }
+
+            .social ul li.facebook:hover {
+                background-color: #3b5999;
+            }
+
+            .social ul li.instagram:hover {
+                background-color: #e4405f;
+            }
+
+            .social ul li a {
+                color: #ffffff;
+                text-decoration: none;
+            }
+
+            .social ul li.whatsapp a i {
+                color: #00ff37;
+            }
+
+            .social ul li.facebook a i {
+                color: #0833aa;
+            }
+
+            .social ul li.instagram a i {
+                color: #ff1500;
+            }
+
+            .social ul li a i {
+                text-align: center;
+                margin-left: 14px;
+                color: #000000;
+                background-color: #ffffff;
+                border-radius: 50%;
+                padding: 5px;
+                width: 30px;
+                height: 30px;
+                font-size: 20px;
+                transform: rotate(0deg);
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            .social ul li:hover i {
+                transform: rotate(360deg);
+                transition: all 1s;
+            }
+
+.want_guard {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.getGuard {
+    background:linear-gradient(to right, #ef2a2a,#a49494);
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    padding: 10px 30px;
+    font-size: 23px;
+    border-radius: 25px;
+    outline: none;
+    letter-spacing: 1.5px;
+    margin-right: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+    .getGuard:hover {
+        transform: translateY(-10px);
+        transition: ease 0.5s;
+        box-shadow: 1px 4px 10px rgb(253, 250, 250);
+        border: 1px solid black;
+    }
+
+.form-popup {
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    z-index: 9;
+    background: white;
+    width: 380px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 10px 15px 10px black;
+}
+
+ .form_get_guard_container {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+#address {
+    width: 90%;
+    padding: 12px 12px 24px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 10px 15px 10px 15px;
+    border-radius: 10px;
+    resize: none;
+    color: white;
+    font-size: 16px;
+    background: linear-gradient(to right, rgb(37, 37, 37), rgb(70, 69, 69)) no-repeat;
+    outline: none;
+}
+
+.fa-times-circle {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    font-size: 30px;
+    cursor: pointer;
+}
